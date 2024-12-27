@@ -1,0 +1,56 @@
+
+
+.social-networks {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+.social-networks li {
+    display: inline-block;
+}
+
+.social-networks ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px; 
+}
+
+.social-networks img {
+    width: 40px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.social-networks img:hover {
+    transform: scale(1.1);
+}
+.contact-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-info a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-info a:hover {
+    color: #0056b3;
+}
+
+.copy-button {
+    color: rgb(255,255,255);
+    background-color: #2e2e2f;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+}
+
+.copy-button:hover {
+    background-color: #0056b3;
+}

@@ -10,8 +10,21 @@ import { Component } from '@angular/core';
 export class FooterComponent {
   title : string = 'Portfolio';
   name : string = 'Juan Gabriel Lara';
-  
-    date(): number {
+  urlLinkedin : string = 'https://www.linkedin.com/in/lardevpro/';
+  urlGithub : string = 'https://github.com/lardevpro';
+  urlMail : string = 'mailto:lardevpro@gmail.com';
+  email : string = 'lardevpro@gmail.com';
+
+
+  getYear(): number {
       return new Date().getFullYear();
     }
+
+  copyEmail(): void {
+    navigator.clipboard.writeText(this.email).then(() => {
+      alert('Correo electrónico copiado al portapapeles');
+    }).catch(err => {
+      console.error('Error al copiar el correo electrónico: ', err);
+    });
+  }
 }
