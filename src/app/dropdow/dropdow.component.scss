@@ -53,7 +53,8 @@ li a:hover, .arrow {
     text-decoration: none;
     display: block;
     text-align: left;
-    border-radius: 10px ;
+    border-radius: 10px;
+    z-index: 1;
 }
 
     .dropdown-content a:hover {
