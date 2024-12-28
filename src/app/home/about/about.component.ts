@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, AfterViewInit } from '@angular/core';
 
 @Component({
   selector: 'app-about',
@@ -7,6 +7,15 @@ import { Component } from '@angular/core';
   styleUrl: './about.component.scss',
   standalone: true,
 })
-export class AboutComponent {
+export class AboutComponent implements AfterViewInit {
 
+
+  ngAfterViewInit() {
+    const img = document.querySelector('.personal-image img') as HTMLImageElement;
+    if (img) {
+      img.addEventListener('load', () => {
+        img.classList.add('lazy-load');
+      });
+    }
+  }
 }
