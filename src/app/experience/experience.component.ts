@@ -9,4 +9,7 @@ import { Component } from '@angular/core';
 })
 export class ExperienceComponent {
 
+  urlAccuro = 'https://www.accuro.es/';
+  urlKortimed = 'https://www.kortimed.com/';
+  urlCampsa = 'https://www.repsol.com/es/index.cshtml';
 }
