@@ -1,19 +1,19 @@
-
+.footer-container {
+    background-color: rgb(55, 55, 55);
+}
 
 .social-networks {
+    margin-top: 50px;
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
-
 }
+
 .social-networks li {
     display: inline-block;
 }
 
 .social-networks ul {
     list-style: none; 
-    padding: 0;
-    margin: 0;
     display: flex;
     gap: 10px; 
 }
@@ -26,20 +26,6 @@
 
 .social-networks img:hover {
     transform: scale(1.1);
-}
-.contact-info {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.contact-info a {
-    color: #007bff;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.contact-info a:hover {
-    color: #0056b3;
 }
 
 .copy-button {
@@ -55,4 +41,11 @@
 
 .copy-button:hover {
     background-color: #2a3745;
+}
+
+.rights {
+    margin-left: 100px;
+    margin-bottom: 50px;
+    text-align: left;
+    margin-top: 20px;
 }
