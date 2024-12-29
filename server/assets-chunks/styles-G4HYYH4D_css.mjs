@@ -1,0 +1,2 @@
+export default `body{background-color:#2c2c2e;font-family:Mona Sans,MonaSansFallback,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";color:#fff;font-style:normal}h2{font-weight:450;font-size:48px;line-height:38px;color:#b1bac4}h1{font-weight:700;font-size:72px;line-height:72px}a{font-weight:400;size:16px;line-height:24px}
+`;

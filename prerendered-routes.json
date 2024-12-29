@@ -1,0 +1,11 @@
+{
+  "routes": {
+    "/https://lardevpro.github.io/portfolio": {},
+    "/https://lardevpro.github.io/portfolio/about": {},
+    "/https://lardevpro.github.io/portfolio/contact": {},
+    "/https://lardevpro.github.io/portfolio/cv": {},
+    "/https://lardevpro.github.io/portfolio/experience": {},
+    "/https://lardevpro.github.io/portfolio/projects": {},
+    "/https://lardevpro.github.io/portfolio/training": {}
+  }
+}
