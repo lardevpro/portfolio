@@ -31,13 +31,13 @@ export class ProjectsComponent  {
     projectUrl: 'https://community.oppomobile.es/',
   },
   {
-    imgUrl: '/assets/images/mil_madrid.png',
+    imgUrl: '/assets/images/wordPress.png',
     tittle: 'Kit Consulting',
     description: 'Creando páginas web con WordPress para la empresa Accuro Technology SL.',
     projectUrl: 'https://www.accuro.es/kit-consulting/',
   },
   {
-    imgUrl: '/assets/images/wordPress.png',
+    imgUrl: '/assets/images/mil_madrid.png',
     tittle: 'Hackathon',
     description: 'Hackaton realizado por (PTIC) con el apoyo de MIL- Madrid Innovation Lab.',
     projectUrl: 'https://www.linkedin.com/feed/update/urn:li:activity:7264600872691617793/',
