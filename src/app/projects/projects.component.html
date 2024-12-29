@@ -1,5 +1,4 @@
-
-	<div class="projects-container">
+<div class="projects-container">
 		<div class="background">
 			<div class="hero"> 
 				<div class="cube"></div>
@@ -11,13 +10,15 @@
 				</div>
 		</div>
 		<h2 class="tittle">Proyectos</h2><br>
-		<div class="container-cards">
-			<div *ngFor="let card of cards" class="card">
-				<a [href]="card.projectUrl" target="_blank">
-					<img [src]="card.imgUrl" alt="{{ card.tittle }}">
-					<h3 class="heading">{{ card.tittle }}</h3>
-					<p>{{ card.description }}</p>
-				</a> 
+		<div class="cards-wrapper">
+			<div class="container-cards">
+				<div *ngFor="let card of cards" class="card">
+					<a [href]="card.projectUrl" target="_blank">
+						<img [src]="card.imgUrl" alt="{{ card.tittle }}">
+						<h3 class="heading">{{ card.tittle }}</h3>
+						<p>{{ card.description }}</p>
+					</a> 
+				</div>
 			</div>
 		</div>
 	</div>
