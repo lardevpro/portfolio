@@ -3,13 +3,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh; 
+    min-height: 100vh; /* Ensure full viewport height */
     padding: 20px; 
     border-radius: 10px;
     text-align: center;
     margin-bottom: 50px;
     position: relative;
-    overflow: hidden; 
+    overflow: hidden; /* Ensure no scroll */
 }
 
 .typing-effect {
@@ -38,12 +38,13 @@
     background-color: #2C2C2E; 
     border-radius: 10px; 
     box-shadow: 0 4px 8px rgba(2, 0, 2, 0.1); 
-    flex-wrap: wrap;
+    max-height: calc(100vh - 100px); /* Adjust height to fit within viewport */
+    overflow-y: auto; /* Allow vertical scroll within the container */
 }
 
 .personal-image {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 10px;
     margin: 20px;
 }
@@ -61,7 +62,6 @@
 
 .about-description {
     margin: 20px;
-     
     max-width: 600px; 
 }
 
