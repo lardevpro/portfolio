@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
-
 @Component({
   selector: 'app-navbar',
   imports: [RouterModule],
@@ -10,17 +9,13 @@ import { RouterModule } from '@angular/router';
   standalone: true,
 })
 export class Navbar {
+  isMenuOpen = false;
+
   toggleNavbar() {
-    const navbarMenu = document.querySelector('.navbar-menu');
-    if (navbarMenu) {
-      navbarMenu.classList.toggle('active');
-    }
+    this.isMenuOpen = !this.isMenuOpen;
   }
 
   closeNavbar() {
-    const navbarMenu = document.querySelector('.navbar-menu');
-    if (navbarMenu) {
-      navbarMenu.classList.remove('active');
-    }
+    this.isMenuOpen = false;
   }
 }

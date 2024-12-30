@@ -1,15 +1,19 @@
 <nav class="navbar">
     <div class="navbar-container">
-        <a href="/" class="navbar-brand"></a>
-        <button class="navbar-toggle" aria-label="Toggle navigation" (click)="toggleNavbar()">
+        <button class="navbar-toggle" (click)="toggleNavbar()">
             <span class="navbar-toggle-icon"></span>
         </button>
-        <ul class="navbar-menu" style="text-align: center;">
-            <li><h3><a routerLink="/" (click)="closeNavbar()"><i class="fas fa-home"></i> Inicio</a></h3></li>
-            <li><h3><a routerLink="/projects" (click)="closeNavbar()"><i class="fas fa-project-diagram"></i> Proyectos</a></h3></li>
-            <li><h3><a routerLink="/training" (click)="closeNavbar()"><i class="fas fa-graduation-cap"></i> Formación</a></h3></li>
-            <li><h3><a routerLink="/cv" (click)="closeNavbar()"><i class="fas fa-file-alt"></i> Currículum Vitae</a></h3></li>
-            <li><h3><a routerLink="/experience" (click)="closeNavbar()"><i class="fas fa-briefcase"></i> Experiencia</a></h3></li>
-        </ul>
+        <div id="navigation-bar">
+            <nav>
+                <ul [class.active]="isMenuOpen" class="navbar-menu">
+                    <li><a routerLink="" (click)="closeNavbar()">Inicio</a></li>
+                    <li><a routerLink="projects" (click)="closeNavbar()">Proyectos</a></li>
+                    <li><a routerLink="training" (click)="closeNavbar()">Formación</a></li>
+                    <li><a routerLink="experience" (click)="closeNavbar()">Experiencia Profesional</a></li>
+                    <li><a routerLink=cv (click)="closeNavbar()">Curriculum</a></li>
+                </ul>
+            </nav>
+        </div>
     </div>
 </nav>
+

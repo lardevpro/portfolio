@@ -1,47 +1,28 @@
-/* Estilos básicos */
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
 
-li {
-    float: left;
-}
-
-li a:hover::after {
-    visibility: visible;
+#container {
     width: 100%;
+    display: inline-block;
 }
 
-li a:hover {
-    color: #e9e2ee;
-    text-decoration: underline;
-}
+/** HEADER */
 
-li a {
-    display: block;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
+/** NAVIGATION BAR */
 .navbar {
-    background-color: #333;
+    z-index: 2;
     overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .navbar-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 14px 16px;
-}
-
-.navbar-brand {
-    color: white;
-    text-decoration: none;
-    font-size: 24px;
+    
+    
 }
 
 .navbar-toggle {
@@ -51,9 +32,13 @@ li a {
     color: white;
     font-size: 24px;
     cursor: pointer;
+    position: absolute;
+    font-size: 30px;
+    right: 10px; 
 }
 
 .navbar-toggle-icon {
+    z-index: 2;
     display: inline-block;
     width: 24px;
     height: 2px;
@@ -85,14 +70,36 @@ li a {
     justify-content: center;
     text-align: center;
     width: 100%;
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    z-index: 3;
+}
+
+.navbar-menu.active {
+    display: flex;
 }
 
 .navbar-menu li a {
-    color: #b689d7
+    color: white; 
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar-menu li a:hover {
+    background-color: rgb(75, 72, 72); 
+    color:#c58aef ;
+    border-radius: 10px;
 }
 
 /* Media Queries para Responsividad */
 @media (max-width: 768px) {
+
+    .navbar-container {
+        padding: 14px 16px;
+    }
+
     .navbar-toggle {
         display: block;
     }
@@ -116,3 +123,4 @@ li a {
         position: relative;
     }
 }
+
