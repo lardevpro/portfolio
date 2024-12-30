@@ -10,4 +10,17 @@ import { RouterModule } from '@angular/router';
   standalone: true,
 })
 export class DropdowComponent {
+  toggleNavbar() {
+    const navbarMenu = document.querySelector('.navbar-menu');
+    if (navbarMenu) {
+      navbarMenu.classList.toggle('active');
+    }
+  }
+
+  closeNavbar() {
+    const navbarMenu = document.querySelector('.navbar-menu');
+    if (navbarMenu) {
+      navbarMenu.classList.remove('active');
+    }
+  }
 }

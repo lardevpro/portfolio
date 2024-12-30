@@ -1,15 +1,14 @@
+/* Estilos básicos */
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    
 }
 
 li {
     float: left;
 }
-
 
 li a:hover::after {
     visibility: visible;
@@ -17,60 +16,80 @@ li a:hover::after {
 }
 
 li a:hover {
-    text-decoration: none; 
+    color: #e9e2ee;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
-
-li a, .dropbtn {
-    display: inline-block;
-    color: white;
-    text-align: center;
+li a {
+    display: block;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-li a:hover, .arrow {
-        transform: translateY(-2px);
-        color: #b36ae8;
+.navbar {
+    background-color: #333;
+    overflow: hidden;
 }
 
-    li.dropdown {
-    display: inline-block;
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 16px;
 }
 
-    .dropdown-content {
-    background-color: rgb(65, 64, 64);
-    position: absolute;
-    display: none;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 2;
-    border-radius: 10px;
-    }
-
-    .dropdown-content a {
-    color: rgb(255,255,255);
-    padding: 12px 16px;
+.navbar-brand {
+    color: white;
     text-decoration: none;
-    display: block;
-    text-align: left;
-    border-radius: 10px;
-    z-index: 2;
+    font-size: 24px;
 }
 
-    .dropdown-content a:hover {
-        background-color:rgb(76, 76, 78);
+.navbar-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
 }
 
-    .dropdown:hover .dropdown-content {
-    display: block;
+.navbar-toggle-icon {
+    display: inline-block;
+    width: 24px;
+    height: 2px;
+    background-color: white;
+    position: relative;
 }
 
-.arrow {
-    margin-left: 10px;
-    font-size: 10px;
-    color:rgb(145,152,161);
-    transition: transform 0.3s ease;
+.navbar-toggle-icon::before,
+.navbar-toggle-icon::after {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 2px;
+    background-color: white;
+    left: 0;
+}
+
+.navbar-toggle-icon::before {
+    top: -8px;
+}
+
+.navbar-toggle-icon::after {
+    top: 8px;
+}
+
+.navbar-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar-menu li a {
+    color: #b689d7
 }
 
 /* Media Queries para Responsividad */
