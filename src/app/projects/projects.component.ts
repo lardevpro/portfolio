@@ -22,13 +22,13 @@ export class ProjectsComponent  {
       imgUrl: '/assets/images/angular.png',
       tittle: 'OPPO Community',
       description: 'Dando apollo en el proyecto OPPO Community con Angular framework.',
-      projectUrl: '',
+      projectUrl: 'https://community.oppomobile.es/',
   },
   {
     imgUrl: '/assets/images/odoo.png',
     tittle: 'Metalistería Madrid',
     description: 'Dando apollo en proyecto ERP con Odoo para Metalistería Madrid.',
-    projectUrl: 'https://community.oppomobile.es/',
+    projectUrl: 'https://www.lasercor.com/chapa-metalica/',
   },
   {
     imgUrl: '/assets/images/wordPress.png',
