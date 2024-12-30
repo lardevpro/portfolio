@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DropdowComponent } from './dropdow.component';
+import { Navbar } from './navbar.component';
 
 describe('DropdowComponent', () => {
-  let component: DropdowComponent;
-  let fixture: ComponentFixture<DropdowComponent>;
+  let component: Navbar;
+  let fixture: ComponentFixture<Navbar>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [DropdowComponent]
+      imports: [Navbar]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(DropdowComponent);
+    fixture = TestBed.createComponent(Navbar);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

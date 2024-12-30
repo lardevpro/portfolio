@@ -3,13 +3,13 @@ import { RouterModule } from '@angular/router';
 
 
 @Component({
-  selector: 'app-dropdow',
+  selector: 'app-navbar',
   imports: [RouterModule],
-  templateUrl: './dropdow.component.html',
-  styleUrl: './dropdow.component.scss',
+  templateUrl: './navbar.component.html',
+  styleUrl: './navbar.component.scss',
   standalone: true,
 })
-export class DropdowComponent {
+export class Navbar {
   toggleNavbar() {
     const navbarMenu = document.querySelector('.navbar-menu');
     if (navbarMenu) {
