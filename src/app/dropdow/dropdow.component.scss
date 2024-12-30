@@ -72,3 +72,29 @@ li a:hover, .arrow {
     color:rgb(145,152,161);
     transition: transform 0.3s ease;
 }
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-menu.active {
+        display: flex;
+    }
+
+    li {
+        float: none;
+        width: 100%;
+    }
+
+    .dropdown-content {
+        position: relative;
+    }
+}
