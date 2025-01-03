@@ -12,7 +12,7 @@ export class TrainingComponent {
   trainings = [
     {
       icon: 'fas fa-laptop-code',
-      badge: 'Técnico Superior en Desarrollo de Aplicaciones Multiplataforma',
+      badge: 'Título Técnico Superior en Desarrollo de Aplicaciones Multiplataforma',
       description: 'IES Gregorio Prieto | Septiembre 2022 - Diciembre 2024.',
       colorClass: 'light-lilac'
     },
@@ -24,61 +24,61 @@ export class TrainingComponent {
     },
     {
       icon: 'fas fa-certificate',
-      badge: 'Scrum técnico',
+      badge: 'Certificado Scrum técnico',
       description: '2 horas',
       colorClass: 'brown'
     },
     {
       icon: 'fas fa-gamepad',
-      badge: 'Unity',
+      badge: 'Certificado Unity',
       description: '6 horas',
       colorClass: 'dark-lilac'
     },
     {
       icon: 'fab fa-html5',
-      badge: 'HTML y CSS3',
+      badge: 'Certificado HTML y CSS3',
       description: '10 horas',
       colorClass: 'light-lilac'
     },
     {
       icon: 'fab fa-java',
-      badge: 'Java desde Cero',
+      badge: 'Certificado Java desde Cero',
       description: '10 horas',
       colorClass: 'pink'
     },
     {
       icon: 'fas fa-code',
-      badge: 'Java XML',
+      badge: 'Certificado Java XML',
       description: '10 horas',
       colorClass: 'brown'
     },
     {
       icon: 'fas fa-code',
-      badge: 'C++',
+      badge: 'Certificado C++',
       description: '1 hora',
       colorClass: 'dark-lilac'
     },
     {
       icon: 'fas fa-code',
-      badge: 'C++ orientado a objetos o funcional',
+      badge: 'Certificado C++ orientado a objetos o funcional',
       description: '1 hora',
       colorClass: 'light-lilac'
     },
     {
       icon: 'fas fa-vial',
-      badge: 'JUnit5',
+      badge: 'Certificado JUnit5',
       description: '2 horas',
       colorClass: 'pink'
     },
     {
       icon: 'fas fa-leaf',
-      badge: 'Introducción a Spring framework',
+      badge: 'Certificado Introducción a Spring framework',
       description: '1 hora',
       colorClass: 'brown'
     },
     {
       icon: 'fas fa-leaf',
-      badge: 'Mi primera aplicación web con Spring Boot',
+      badge: 'Certificado Mi primera aplicación web con Spring Boot',
       description: '2 horas',
       colorClass: 'dark-lilac'
     }
