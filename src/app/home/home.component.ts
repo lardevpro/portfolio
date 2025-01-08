@@ -8,8 +8,8 @@ import { TrainingComponent } from "../training/training.component";
   selector: 'app-home',
   imports: [AboutComponent, ProjectsComponent, ExperienceComponent, TrainingComponent],
   template: ` <app-about></app-about>
-              <app-training></app-training>
               <app-experience></app-experience>
+              <app-training></app-training>
               <app-projects><app-projects>
               `,         
   //templateUrl: './home.component.html',

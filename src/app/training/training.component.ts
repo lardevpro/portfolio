@@ -12,7 +12,7 @@ export class TrainingComponent {
   trainings = [
     {
       icon: 'fas fa-laptop-code',
-      badge: 'Título Técnico Superior en Desarrollo de Aplicaciones Multiplataforma',
+      badge: 'Técnico Superior en Desarrollo de Aplicaciones Multiplataforma',
       description: 'IES Gregorio Prieto | Septiembre 2022 - Diciembre 2024.',
       colorClass: 'light-lilac'
     },
