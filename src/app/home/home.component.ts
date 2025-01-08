@@ -10,9 +10,7 @@ import { TrainingComponent } from "../training/training.component";
   template: ` <app-about></app-about>
               <app-training></app-training>
               <app-experience></app-experience>
-              
               <app-projects><app-projects>
-              
               `,         
   //templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
