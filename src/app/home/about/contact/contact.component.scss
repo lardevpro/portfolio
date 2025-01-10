@@ -1,0 +1,56 @@
+.footer-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(55, 55, 55);
+    text-align: center;
+    padding: 10px 0;
+}
+
+.social-networks {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-networks li {
+    display: inline-block;
+}
+
+.social-networks ul {
+    list-style: none; 
+    display: flex;
+    gap: 10px; 
+}
+
+.social-networks img {
+    width: 40px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.social-networks img:hover {
+    transform: scale(1.1);
+}
+
+.copy-button {
+    color: rgb(255,255,255);
+    background-color: #202049;
+    border: none;
+    border-radius: 10px;
+    width: 50px;
+    height: 30px;
+    font-size: 8px;
+    margin-top: 9px;
+}
+
+.copy-button:hover {
+    background-color: #a4bbd3;
+}
+
+.rights {
+    margin-left: 100px;
+    margin-bottom: 50px;
+    text-align: left;
+    margin-top: 20px;
+}
