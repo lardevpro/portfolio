@@ -10,6 +10,13 @@ export class HomeService {
 
   constructor() {
 
+
+
+
+
+
+
+    //about me service
     this.aboutModel.welcome = 'Bienvenido a mi Portfolio';
     this.aboutModel.title = 'Sobre Mi';
     this.aboutModel.presentation = 'Hola, soy Juan Gabriel Lara';
@@ -22,11 +29,9 @@ export class HomeService {
                                     contextos exigentes me permiten marcar la diferencia y aportar valor a sus 
                                     proyectos.`;
     this.aboutModel.urlImage = '/assets/images/photo.png';
-  
-
   }
-
-
+  
+  //getter about me
   getAboutModel(): About {
     return this.aboutModel;
   }
