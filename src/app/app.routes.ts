@@ -1,9 +1,9 @@
 import { provideRouter, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './home/about/about.component';
-import { ProjectsComponent } from './projects/projects.component';
-import { TrainingComponent } from './training/training.component';
-import { ExperienceComponent } from './experience/experience.component';
+import { ProjectsComponent } from './home/projects/projects.component';
+import { TrainingComponent } from './home/training/training.component';
+import { ExperienceComponent } from './home/experience/experience.component';
 
 export const routes: Routes = [
     {path: '', component: HomeComponent},

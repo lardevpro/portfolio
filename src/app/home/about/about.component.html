@@ -1,14 +1,14 @@
 <div class="welcome-container">
     <div class="context">
-        <h1>Bienvenido a mi Portfolio</h1>
+        <h1>{{about.welcome}}</h1>
         <section class="about-me">
             <div class="personal-image">
-                <img src="/assets/images/photo.png" alt="Mi Imagen Personal" class="lazy-load">
+                <img [src]="about.urlImage" class="lazy-load">
             </div>        
             <div class="about-description">
-                <h2>Sobre Mí</h2>
-                <h3>Hola, soy Juan Gabriel Lara</h3>
-                <p>Soy técnico superior en desarrollo de aplicaciones multiplataforma con experiencia en proyectos como OPPO Community, utilizando Angular, y en trabajos internos con WordPress. También he trabajado en la configuración de módulos en el sistema ERP Odoo para Metalistería Madrid. Aunque el sector está lleno de jóvenes talentosos, mi experiencia y habilidades como constancia, compromiso, disciplina y toma de decisiones en contextos exigentes me permiten marcar la diferencia y aportar valor a sus proyectos.
+                <h2>{{about.title}}</h2>
+                <h3>{{about.presentation}}</h3>
+                <p>{{about.description}}
                 <app-contact></app-contact>
                 </p>
             </div>
