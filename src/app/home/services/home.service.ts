@@ -10,12 +10,6 @@ export class HomeService {
 
   constructor() {
 
-
-
-
-
-
-
     //about me service
     this.aboutModel.welcome = 'Bienvenido a mi Portfolio';
     this.aboutModel.title = 'Sobre Mi';
