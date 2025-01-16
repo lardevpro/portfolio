@@ -42,6 +42,12 @@ export class ProjectsComponent  {
     description: 'Hackaton realizado por (PTIC) con el apoyo de MIL- Madrid Innovation Lab.',
     projectUrl: 'https://www.linkedin.com/feed/update/urn:li:activity:7264600872691617793/',
   },
+  {
+    imgUrl: '/assets/images/spring_angular.png',
+    tittle: 'API REST',
+    description: 'API REST con Spring Boot y Angular.Conexión entre back y front (sin base de datos).',
+    projectUrl: 'https://github.com/lardevpro/srping-angular',
+  },
     {
       imgUrl: '/assets/images/glotter.png',
       tittle: 'Glotter',
