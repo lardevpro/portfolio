@@ -48,12 +48,13 @@ export class ProjectsComponent  {
     description: 'API REST con Spring Boot y Angular.Conexión entre back y front (sin base de datos).',
     projectUrl: 'https://github.com/lardevpro/srping-angular',
   },
-    {
-      imgUrl: '/assets/images/glotter.png',
-      tittle: 'Glotter',
-      description: 'Trabajo fin de grado ABP framework, C# .Net y Angular framework.',
-      projectUrl: 'https://github.com/lardevpro/Jlara.SystemLangGlotter',
-    },
+    // {
+    //   imgUrl: '/assets/images/glotter.png',
+    //   tittle: 'Glotter',
+    //   description: 'Trabajo fin de grado ABP framework, C# .Net y Angular framework.',
+    //   projectUrl: 'https://github.com/lardevpro/Jlara.SystemLangGlotter',
+    // },
+    // 
     {
       imgUrl: '/assets/images/street-fighter.png',
       tittle: 'Street Fighter',
